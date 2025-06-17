@@ -1,0 +1,8 @@
+Provide a list of 5 useful daily Islamic duas in **JSON format**.
+
+Each dua must include:
+- arabic
+- urdu_translation
+- transliteration
+
+Only return the JSON array, no extra explanation.
