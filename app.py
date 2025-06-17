@@ -19,8 +19,7 @@ prompt_type = st.selectbox("Select prompt type", [
     "Islamic Answer (Mufti)",
     "Dua List (JSON Format)",
     "Halal or Haram (Chain of Thought)",
-    "Islamic Term Dictionary",
-    "Self-Review (Critic Mode)"
+    "Islamic Term Dictionary(FAQ)",
 ])
 
 # Map prompt type to file
