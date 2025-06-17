@@ -16,10 +16,10 @@ st.markdown("Ask anything about Islam, duas, rulings — in **Urdu** ✨")
 
 # Select prompt type
 prompt_type = st.selectbox("Select prompt type", [
-    "Islamic Answer (Mufti)",
-    "Dua List (JSON Format)",
-    "Halal or Haram (Chain of Thought)",
-    "Islamic Term Dictionary(FAQ)",
+    "Islamic Answer (Mufti)", #role base prompting
+    "Dua List (JSON Format)", #JSON FORMATING means ke iss stucture ma hme prompt de
+    "Halal or Haram (Chain of Thought)", #reasons ke saath ,step by step tinking
+    "Islamic Term Dictionary(FAQ)", #few shot promptin (e.g di jaati)
 ])
 
 # Map prompt type to file
